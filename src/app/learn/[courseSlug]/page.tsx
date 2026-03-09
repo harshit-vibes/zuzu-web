@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { getPublicCourseComplete, getAllPublicCourseSlugs, toSlug } from '@/lib/learn-data'
+import { getPublicCourseComplete, getAllPublicCourseSlugs } from '@/lib/learn-data'
 import { LessonMarkdown } from '@/components/learn/lesson-markdown'
 import { SIGN_IN_URL } from '@/lib/get-sign-up-url'
 import type { Metadata } from 'next'

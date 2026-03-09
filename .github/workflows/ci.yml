@@ -28,6 +28,4 @@ jobs:
 
       - name: Lint
         run: npm run lint
-
-      - name: Build
-        run: npm run build
+        # Build is owned by Vercel (requires DATABASE_URL for static generation)
